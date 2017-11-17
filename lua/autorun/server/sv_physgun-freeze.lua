@@ -23,3 +23,5 @@ hook.Add("playerCanChangeTeam", "PhysgunFreeze.playerCanChangeTeam", function(pl
 		return false, "You can't change jobs while frozen, duh"
 	end
 end)
+
+print("Crident Physgun Freeze Loaded")
